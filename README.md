@@ -2,8 +2,6 @@
 
 A small Spring Boot REST API that sends a question to a locally running Ollama model using Spring AI's `ChatClient`. It demonstrates the basic request flow from an HTTP controller to a service and then to a local language model.
 
-> **Attribution:** This project is based on the [`spring-ai-ollam` example](https://github.com/LearnCodeWithDurgesh/spring-ai-yt-series/tree/main/spring-ai-ollam) from [LearnCodeWithDurgesh/spring-ai-yt-series](https://github.com/LearnCodeWithDurgesh/spring-ai-yt-series). This copy includes cleanup, documentation, and tests. Review the original repository's license and attribution terms before redistributing it.
-
 ## Features
 
 - Synchronous responses through Spring AI `ChatClient`.
@@ -170,7 +168,3 @@ The test suite covers a successful request, a missing question parameter, and a 
 ## Limitations
 
 This is a compact learning example, not a production-ready chatbot. It does not currently implement conversation history, streaming, authentication, rate limiting, a frontend, or specialized handling for all model-server failures.
-
-## Source
-
-Original tutorial project: [LearnCodeWithDurgesh/spring-ai-yt-series/spring-ai-ollam](https://github.com/LearnCodeWithDurgesh/spring-ai-yt-series/tree/main/spring-ai-ollam). Check the source repository's license and attribution requirements before redistribution.
